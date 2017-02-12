@@ -85,8 +85,8 @@ end
 
 
 __END__
---- wscript	2017-02-12 18:05:24.369432900 +0100
-+++ wscript.patch	2017-02-12 18:37:28.658194300 +0100
+--- a/wscript	2017-02-12 18:05:24.369432900 +0100
++++ b/wscript	2017-02-12 18:37:28.658194300 +0100
 @@ -408,6 +408,7 @@
  
      if opt.use_libcpp or conf.env['build_host'] in [ 'el_capitan', 'sierra' ]:
