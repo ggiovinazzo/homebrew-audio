@@ -27,6 +27,7 @@ class Ardour56 < Formula
   depends_on "lilv"
   depends_on "libsigc++"
   depends_on "boost"
+  depends_on "libarchive"
   depends_on :x11 => :optional
 
   depends_on "python3" => :build # for fix-installnames-magic
