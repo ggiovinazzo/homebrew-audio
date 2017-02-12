@@ -1,4 +1,4 @@
-class Ardour5_6 < Formula
+class Ardour56 < Formula
   desc "hard disk recorder and digital audio workstation application"
   homepage "http://ardour.org"
   url "git://git.ardour.org/ardour/ardour.git", :tag=>'5.6'
